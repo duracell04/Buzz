@@ -16,10 +16,10 @@ const Hero = () => {
       
       <div className="container mx-auto relative max-w-4xl text-center">
         <div className="space-y-8 animate-in fade-in slide-in-from-bottom duration-700">
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-accent/10 border border-accent/20 text-accent text-sm font-medium hover:bg-accent/20 transition-all">
+          {/* <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-accent/10 border border-accent/20 text-accent text-sm font-medium hover:bg-accent/20 transition-all">
             <div className="w-2 h-2 rounded-full bg-accent animate-pulse"></div>
             Now accepting waitlist signups
-          </div>
+          </div> */}
           
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight text-foreground leading-[1.1]">
             Buzz, no fuzz.
