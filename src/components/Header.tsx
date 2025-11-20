@@ -29,7 +29,11 @@ const Header = () => {
             </a>
           </nav>
 
-          <Button size="sm" className="bg-accent text-accent-foreground hover:bg-accent/90">
+          <Button 
+            size="sm" 
+            className="bg-accent text-accent-foreground hover:bg-accent/90"
+            onClick={() => document.getElementById('waitlist')?.scrollIntoView({ behavior: 'smooth' })}
+          >
             Join waitlist
           </Button>
         </div>
