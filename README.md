@@ -1,6 +1,6 @@
-# Buzz
+# Buzz, no fuzz.
 
-**Buzz, no fuzz.** A Next.js + Tailwind CSS marketing and product-explainer site for a discreet, in-the-moment dating app that only buzzes when someone nearby is a strong mutual match.
+**** A Next.js + Tailwind CSS marketing and product-explainer site for a discreet, in-the-moment dating app that only buzzes when someone nearby is a strong mutual match.
 
 ## What this repo is
 - Next.js 14 (pages router) + React 18, TypeScript, pnpm
