@@ -4,17 +4,17 @@ const reasons = [
   {
     icon: Users,
     title: "To actually meet in real life",
-    description: "Not just message—meet people when you're both out and interested"
+    description: "Not just message — to meet when you're both out, nearby, and up for it."
   },
   {
     icon: Target,
     title: "Clear intentions from casual to marriage",
-    description: "Say honestly what you're looking for and only connect with aligned matches"
+    description: "You say what you're open to. Buzz quietly filters for people who are in the same zone."
   },
   {
     icon: Shield,
-    title: "Feel safe, untracked and in control",
-    description: "Your visibility is your choice—no logs, no almost-matches, no stalking"
+    title: "Safe, untracked, and in control",
+    description: "Your visibility is your choice. No map of people, no "people you walked past", no scoreboard of almost-matches."
   }
 ];
 
@@ -27,7 +27,7 @@ const WhyBuzzSection = () => {
             Why Buzz exists
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Buzz is for adults who want to meet with intention, safety, and control.
+            Buzz is for adults who want to date with intention, safety, and self-respect.
           </p>
         </div>
 
@@ -52,10 +52,11 @@ const WhyBuzzSection = () => {
 
         <div className="bg-card border border-border rounded-2xl p-8 text-center">
           <p className="text-lg text-card-foreground">
-            Instead of feeds and maps, Buzz just gives you a gentle vibration when someone nearby is a strong mutual fit—and only if you both say yes.
+            Instead of feeds and maps, Buzz just gives you a gentle vibration when someone nearby is a strong mutual fit — and only if you both say yes.
           </p>
           <p className="text-muted-foreground mt-4">
-            Buzz isn't a map of people. It's a quiet "yes/no now?" layer on top of your normal life.
+            Buzz isn't a map of people.<br />
+            It's a quiet "yes / no, now?" layer on top of your normal life.
           </p>
         </div>
       </div>

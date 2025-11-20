@@ -5,28 +5,28 @@ const steps = [
     number: "01",
     icon: Heart,
     title: "Set intentions & boundaries",
-    description: "Choose your intent (casual, serious, long-term, figuring it out) and set non-negotiables. If something is non-negotiable, Buzz will never propose someone who doesn't meet it.",
-    note: "If you don't want to share a detail (like height), Buzz just won't match you with people who insist on it."
+    description: "You answer a few questions once: What you're looking for right now (something casual, dating, serious, long-term / marriage, still figuring it out). Your non-negotiables (for example: non-smoker, wants kids / doesn't want kids, must be okay with my religion, height limits if that matters to you). Anything you mark as non-negotiable becomes a hard rule. Buzz will simply never propose someone who doesn't meet it.",
+    note: "Don't want to share a detail (like height)? Then Buzz just won't match you with people who insist on it. Your choice."
   },
   {
     number: "02",
     icon: Bluetooth,
     title: "Turn Roam ON",
-    description: "When you're out—at a café, bar, event—turn Roam ON. You're only visible to potential matches in the moment, not to everyone all the time.",
+    description: "When you go out — a café, bar, gig, friend's party, conference — you flip Roam ON. That tells Buzz: "I'm open to meeting someone like my profile describes." "Only within the places and times I've allowed." You're not a permanent profile in a public aquarium. You're only "discoverable" in the moment, under your own rules.",
     note: null
   },
   {
     number: "03",
     icon: MessageCircle,
     title: "Get a discreet buzz",
-    description: "If someone nearby is a strong mutual fit (same intentions, all boundaries met), both your phones buzz. Anonymous until you both tap yes.",
+    description: "If someone nearby is a strong mutual fit — they match your intentions and non-negotiables, and you match theirs — both your phones give a small, discreet buzz. You each see the same anonymous message: "Someone who fits what you're looking for is nearby. Tap if you'd like to see if you both say yes." No faces, no names, no little arrow pointing across the room. If you're not in the mood, you ignore it. That's it.",
     note: null
   },
   {
     number: "04",
     icon: Coffee,
-    title: "Say yes—or don't",
-    description: "Both have a short window to tap yes. Only then do you see a match card and tiny chat to find each other. If either ignores it, nothing is revealed.",
+    title: "Say yes… or let it pass",
+    description: "You both get a short window to tap yes. If you both say yes, Buzz reveals a small match card: first name, age, one verified photo, what they're looking for, plus a few bullets like: "You both want a serious relationship." "Non-smokers; drink socially." "You both like late nights and live music." And a gentle suggestion like: "Hey, I think we just buzzed – are you near the bar?" If one of you says no, or doesn't answer at all, nothing is revealed. There is no "rejected you" list, no awkward trace. It's just a moment that almost was — and that's okay.",
     note: null
   }
 ];
@@ -40,7 +40,7 @@ const HowItWorksSection = () => {
             How it works
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Simple, private, and only active when you want it to be.
+            Simple, private, and only awake when you want it to be.
           </p>
         </div>
 

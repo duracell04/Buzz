@@ -4,22 +4,22 @@ const problems = [
   {
     icon: MapPin,
     title: "Map & feed overload",
-    description: "Endless browsing of profiles, always wondering who else is out there"
+    description: "You're browsing faces like a catalogue, always half-wondering who else is out there if you just keep scrolling."
   },
   {
     icon: MessageSquare,
     title: "Chat purgatory",
-    description: "Matching with people you'll never actually meet in person"
+    description: "You match, you talk, you drift. You never meet — but you do spend another evening in the app."
   },
   {
     icon: Eye,
     title: "Always being watched",
-    description: "Your profile visible to everyone, with no control over who sees you"
+    description: "Your profile sits there like a shop window. Anyone can look in, any time, whether you feel like being looked at or not."
   },
   {
     icon: AlertCircle,
     title: "Unclear intentions",
-    description: "Wasting time with people who want completely different things"
+    description: "One person wants a long-term partner, the other just wants someone for tonight. Nobody says it clearly at the start."
   }
 ];
 
@@ -32,7 +32,7 @@ const ProblemSection = () => {
             Why dating apps feel broken
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            They're designed for endless scrolling and texting, not for actually meeting people.
+            Most dating apps are optimised for time spent, not for people met.
           </p>
         </div>
 
