@@ -1,19 +1,15 @@
 import Link from "next/link";
+import Logo from "@/components/Logo";
 import { Button } from "@/components/ui/button";
-import buzzIcon from "@/assets/buzz-icon.png";
 
 const Header = () => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-lg border-b border-border">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16">
-          <Link href="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
-            <img 
-              src={buzzIcon} 
-              alt="Buzz" 
-              className="w-8 h-8 rounded-lg"
-            />
-            <span className="text-xl font-semibold tracking-tight text-foreground">
+        <div className="flex items-center justify-between h-20">
+          <Link href="/" className="flex items-center gap-4 hover:opacity-90 transition-opacity">
+            <Logo className="w-12 h-12 md:w-14 md:h-14 drop-shadow-[0_6px_14px_rgba(255,200,87,0.25)]" animated />
+            <span className="text-2xl font-semibold tracking-tight text-foreground">
               buzz
             </span>
           </Link>

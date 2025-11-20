@@ -1,4 +1,4 @@
-import buzzIcon from "@/assets/buzz-icon.png";
+import Logo from "@/components/Logo";
 
 const Footer = () => {
   return (
@@ -7,11 +7,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           <div className="space-y-4">
             <div className="flex items-center gap-3">
-              <img 
-                src={buzzIcon} 
-                alt="Buzz" 
-                className="w-8 h-8 rounded-lg"
-              />
+              <Logo className="w-9 h-9" />
               <span className="text-xl font-semibold">buzz</span>
             </div>
             <p className="text-sm text-primary-foreground/70">
@@ -48,7 +44,7 @@ const Footer = () => {
         </div>
 
         <div className="pt-8 border-t border-primary-foreground/10 text-center text-sm text-primary-foreground/60">
-          <p>© 2024 Buzz. All rights reserved. Buzz, no fuzz.</p>
+          <p>Ac 2024 Buzz. All rights reserved. Buzz, no fuzz.</p>
         </div>
       </div>
     </footer>

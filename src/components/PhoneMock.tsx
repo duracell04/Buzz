@@ -1,5 +1,5 @@
 import { useState } from "react";
-import buzzIcon from "@/assets/buzz-icon.png";
+import Logo from "@/components/Logo";
 
 type PhoneMockProps = {
   screen: "who-you-are" | "what-youre-looking-for" | "roam";
@@ -57,7 +57,7 @@ export const PhoneMock = ({ screen }: PhoneMockProps) => {
           {/* App Bar */}
           <div className="flex items-center justify-between mb-6">
             <div className="flex items-center gap-2">
-              <img src={buzzIcon} alt="Buzz" className="w-6 h-6 rounded-lg" />
+              <Logo className="w-6 h-6" animated />
               <span className="text-foreground font-semibold">buzz</span>
             </div>
             <span className="text-xs text-muted-foreground">
