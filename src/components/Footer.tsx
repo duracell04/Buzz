@@ -31,18 +31,18 @@ const Footer = () => {
           <div>
             <h3 className="font-semibold mb-4">Company</h3>
             <ul className="space-y-2 text-sm text-primary-foreground/70">
-              <li><a href="#" className="hover:text-primary-foreground transition-colors">About</a></li>
-              <li><a href="#" className="hover:text-primary-foreground transition-colors">Blog</a></li>
-              <li><a href="#" className="hover:text-primary-foreground transition-colors">Careers</a></li>
+              <li><a href="/about" className="hover:text-primary-foreground transition-colors">About</a></li>
+              <li><a href="/blog" className="hover:text-primary-foreground transition-colors">Blog</a></li>
+              <li><a href="/careers" className="hover:text-primary-foreground transition-colors">Careers</a></li>
             </ul>
           </div>
 
           <div>
             <h3 className="font-semibold mb-4">Legal</h3>
             <ul className="space-y-2 text-sm text-primary-foreground/70">
-              <li><a href="#" className="hover:text-primary-foreground transition-colors">Privacy</a></li>
-              <li><a href="#" className="hover:text-primary-foreground transition-colors">Terms</a></li>
-              <li><a href="#" className="hover:text-primary-foreground transition-colors">Guidelines</a></li>
+              <li><a href="/privacy" className="hover:text-primary-foreground transition-colors">Privacy</a></li>
+              <li><a href="/terms" className="hover:text-primary-foreground transition-colors">Terms</a></li>
+              <li><a href="/guidelines" className="hover:text-primary-foreground transition-colors">Guidelines</a></li>
             </ul>
           </div>
         </div>
