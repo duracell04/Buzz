@@ -22,15 +22,17 @@ const Header = () => {
             <a href="/#how-it-works" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
               How it works
             </a>
-            <a href="/demo" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-              Demo
-            </a>
             <a href="/#safety" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
               Safety
             </a>
             <a href="/#faq" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
               FAQ
             </a>
+            <Link to="/demo">
+              <Button size="sm" className="bg-primary text-primary-foreground hover:bg-primary/90">
+                Demo
+              </Button>
+            </Link>
           </nav>
 
           <Button 
